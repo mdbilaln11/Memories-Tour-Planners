@@ -1,259 +1,334 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memories Tour Planners | Premium Travel Experiences</title>
-    <meta name="google-site-verification" content=googledb5585476f09f05b.html />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;400;600;800&family=Russo+One&display=swap" rel="stylesheet">
+ 
+    <!-- ===== Primary SEO ===== -->
+    <title>Memories Tour Planners | Premium Kerala &amp; South India Tour Packages</title>
+    <meta name="description" content="Memories Tour Planners curates exceptional journeys across South India since 2019. Day excursions, weekend escapes and 3-day retreats to Munnar, Wayanad, Ooty, Coorg, Mysuru, Kodaikanal &amp; more from Kerala.">
+    <meta name="keywords" content="Memories Tour Planners, Kerala tour packages, South India tour operator, Munnar tour package, Wayanad tour package, Ooty tour package, Coorg tour package, Mysuru tour, Kodaikanal, Wagamon, Kanyakumari, Trivandrum travel agency, Kollam travel agency, Alappuzha tour, Kottayam tour, Pathanamthitta tour, weekend trips from Kerala">
+    <meta name="author" content="Memories Tour Planners">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#0f2a2e">
+    <meta name="geo.region" content="IN-KL">
+    <meta name="geo.placename" content="Kerala, India">
+    <!-- After deploying, add your live address here, e.g.:
+         <link rel="canonical" href="https://www.yourdomain.com/"> -->
+ 
+    <!-- Google Search Console verification (kept from original) -->
+    <meta name="google-site-verification" content="googledb5585476f09f05b">
+ 
+    <!-- ===== Open Graph / Twitter ===== -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Memories Tour Planners">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Memories Tour Planners | Premium Travel Experiences">
+    <meta property="og:description" content="Curating exceptional journeys across South India since 2019. Bespoke and custom travel packages available.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200&auto=format&fit=crop">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Memories Tour Planners | Premium Travel Experiences">
+    <meta name="twitter:description" content="Curating exceptional journeys across South India since 2019.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200&auto=format&fit=crop">
+ 
+    <!-- ===== Performance ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=75&w=1600&auto=format&fit=crop">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@600&family=Poppins:wght@300;400;500;600&family=Russo+One&display=swap" rel="stylesheet">
+ 
+    <!-- ===== Structured data (rich results) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Memories Tour Planners",
+      "description": "Premium tour operator curating exceptional journeys across South India since 2019, headquartered in Kollam and Thiruvananthapuram, Kerala, with a presence all over Kerala.",
+      "foundingDate": "2019",
+      "telephone": ["+918589065178", "+918943558285"],
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1200&auto=format&fit=crop",
+      "address": { "@type": "PostalAddress", "addressRegion": "Kerala", "addressCountry": "IN" },
+      "areaServed": ["Kerala","Tamil Nadu","Karnataka","Trivandrum","Kollam","Alappuzha","Kottayam","Pathanamthitta"],
+      "sameAs": ["https://www.instagram.com/memories_tour_planners"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919207349246",
+        "contactType": "customer service",
+        "availableLanguage": ["English","Malayalam"],
+        "url": "https://wa.me/919207349246"
+      },
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "TouristTrip", "name": "Day Excursions", "touristType": "Day trip" } },
+        { "@type": "Offer", "itemOffered": { "@type": "TouristTrip", "name": "Weekend Escapes (2 Days)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "TouristTrip", "name": "Immersive Retreats (3 Days)" } }
+      ]
+    }
+    </script>
+ 
     <style>
-        /* Modern Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-        body { color: #333; line-height: 1.6; background-color: #f4f4f4; }
-
-        /* --- PARALLAX BACKGROUNDS --- */
-        .parallax-hero {
-            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1920&auto=format&fit=crop'); 
-            min-height: 100vh;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-            padding: 20px;
+        :root{
+            --ink:#0f2a2e; --ink-2:#163a40; --coral:#F25C5A; --coral-d:#d94644; --gold:#f39c12;
+            --sand:#faf6f0; --paper:#ffffff; --mute:#9E9E9E; --text:#2b3a3d;
+            --radius:22px; --shadow:0 20px 50px -20px rgba(15,42,46,.35);
         }
-
-        .parallax-itinerary {
-            background-image: url('https://images.unsplash.com/photo-1593693397690-362cb9666c74?q=80&w=1920&auto=format&fit=crop'); 
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding: 80px 5%;
-        }
-
-        /* --- CUSTOM TEXT LOGO --- */
-        .hero-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            animation: fadeInDown 1s ease;
-            margin-bottom: 20px;
-        }
-
-        .logo-memories {
-            font-family: 'Russo One', sans-serif; 
-            font-size: 5.5rem; 
-            color: #F25C5A; 
-            line-height: 1;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            text-shadow: 2px 4px 15px rgba(0,0,0,0.8); 
-        }
-
-        .logo-subtitle {
-            font-family: 'Montserrat', sans-serif; 
-            font-size: 1.2rem;
-            color: #9E9E9E; 
-            letter-spacing: 16px; 
-            margin-top: 10px;
-            margin-right: -16px; 
-            font-weight: 600;
-            text-transform: uppercase;
-            text-shadow: 1px 2px 5px rgba(0,0,0,0.8);
-        }
-
-        .hero-subtext { 
-            font-size: 1.2rem; 
-            font-weight: 300; 
-            margin-top: 40px;
-            color: #e0e0e0;
-            animation: fadeInUp 1s ease 0.5s both; 
-        }
-        
-        /* Bouncing Arrow */
-        .scroll-down {
-            position: absolute; bottom: 30px; font-size: 2rem; color: #fff;
-            animation: bounce 2s infinite; text-decoration: none;
-        }
-
-        /* --- ABOUT SECTION --- */
-        .about-section {
-            background: #fff; padding: 60px 20px; text-align: center;
-        }
-        .about-container { max-width: 800px; margin: 0 auto; }
-        .about-container h2 { font-size: 2.5rem; color: #2c3e50; margin-bottom: 20px; }
-        .about-container p { font-size: 1.1rem; color: #555; margin-bottom: 15px; }
-        .highlight { color: #f39c12; font-weight: 600; }
-
-        /* --- ITINERARY SECTION (GLASSMORPHISM) --- */
-        .section-title { text-align: center; color: white; font-size: 3rem; margin-bottom: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); }
-        
-        .itinerary-grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;
-        }
-
-        /* Frosted Glass Cards */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.5);
-            transition: transform 0.3s ease;
-        }
-        .glass-card:hover { transform: translateY(-10px); }
-
-        .glass-card h3 { color: #2c3e50; font-size: 1.8rem; margin-bottom: 20px; text-align: center; border-bottom: 2px solid #F25C5A; padding-bottom: 10px; }
-        .glass-card ul { list-style: none; padding: 0; }
-        .glass-card ul li { padding: 10px 0; border-bottom: 1px solid rgba(0,0,0,0.1); font-weight: 600; color: #333; }
-        .glass-card ul li:last-child { border-bottom: none; }
-        .glass-card ul li span { color: #F25C5A; margin: 0 5px; } 
-
-        /* --- CALL TO ACTION (WHATSAPP) --- */
-        .cta-section { background: #2c3e50; padding: 60px 20px; text-align: center; color: white; }
-        .cta-section h2 { margin-bottom: 20px; font-size: 2.2rem; }
-        
-        .custom-quote { font-size: 1.3rem; color: #f39c12; font-weight: 600; margin-bottom: 30px; letter-spacing: 1px; }
-
-        .btn-whatsapp {
-            display: inline-flex; align-items: center; justify-content: center;
-            background-color: #25D366; color: white; padding: 18px 40px; border-radius: 30px;
-            text-decoration: none; font-size: 1.3rem; font-weight: bold;
-            transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-        }
-        .btn-whatsapp:hover { background-color: #1ebe57; transform: scale(1.05); }
-        .btn-whatsapp span { margin-right: 10px; font-size: 1.5rem; }
-
-        /* --- FOOTER (CLICKABLE LINKS) --- */
-        footer { background: #1a252f; color: #7f8c8d; text-align: center; padding: 30px 20px; font-size: 0.9rem; }
-        
-        .footer-contact-row { margin-bottom: 15px; }
-        .footer-link { color: #bdc3c7; text-decoration: none; font-size: 1.1rem; font-weight: 600; transition: color 0.3s ease; }
-        .footer-link:hover { color: #F25C5A; } 
-        .divider { color: #7f8c8d; margin: 0 10px; font-size: 1.2rem; }
-        .instagram-link { display: inline-block; margin-top: 5px; font-size: 1.1rem; }
-
-        /* --- ANIMATIONS --- */
-        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-15px); } 60% { transform: translateY(-7px); } }
-
-        /* Mobile Adjustments */
-        @media (max-width: 768px) {
-            .logo-memories { font-size: 3rem; }
-            .logo-subtitle { font-size: 0.8rem; letter-spacing: 8px; margin-right: -8px; }
-            .section-title { font-size: 2.2rem; }
-            .footer-contact-row { display: flex; flex-direction: column; gap: 10px; align-items: center; }
-            .divider { display: none; } 
+        *{margin:0;padding:0;box-sizing:border-box}
+        html{scroll-behavior:smooth;scroll-padding-top:80px}
+        body{font-family:'Poppins',system-ui,sans-serif;color:var(--text);background:var(--sand);line-height:1.65;-webkit-font-smoothing:antialiased}
+        a{color:inherit}
+        img{max-width:100%;display:block}
+        .skip{position:absolute;left:-999px;top:8px;background:var(--coral);color:#fff;padding:8px 14px;border-radius:8px;z-index:200}
+        .skip:focus{left:8px}
+ 
+        /* ---------- NAV ---------- */
+        .nav{position:fixed;inset:0 0 auto 0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:14px 5%;transition:background .3s,box-shadow .3s,padding .3s}
+        .nav.scrolled{background:rgba(15,42,46,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 6px 24px rgba(0,0,0,.25);padding:10px 5%}
+        .nav-brand{font-family:'Russo One',sans-serif;color:var(--coral);text-decoration:none;letter-spacing:2px;font-size:1.25rem;text-transform:uppercase}
+        .nav-brand small{font-family:'Montserrat',sans-serif;color:var(--mute);font-size:.55rem;letter-spacing:5px;display:block;margin-top:-2px}
+        .nav-links{display:flex;gap:28px;list-style:none;align-items:center}
+        .nav-links a{color:#eef3f3;text-decoration:none;font-size:.9rem;font-weight:500;position:relative}
+        .nav-links a:not(.nav-cta)::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:0;background:var(--coral);transition:width .3s}
+        .nav-links a:not(.nav-cta):hover::after{width:100%}
+        .nav-cta{background:#25D366;color:#fff!important;padding:9px 20px;border-radius:30px;font-weight:600!important}
+        .burger{display:none;background:none;border:0;color:#fff;font-size:1.7rem;cursor:pointer}
+ 
+        /* ---------- HERO ---------- */
+        .hero{position:relative;min-height:100vh;display:grid;place-items:center;text-align:center;color:#fff;padding:120px 6% 90px;
+            background:linear-gradient(180deg,rgba(15,42,46,.55),rgba(15,42,46,.9)),url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=75&w=1600&auto=format&fit=crop') center/cover no-repeat;background-attachment:fixed}
+        .hero::after{content:"";position:absolute;inset:auto 0 -1px 0;height:90px;background:var(--sand);clip-path:ellipse(60% 100% at 50% 100%)}
+        .logo-memories{font-family:'Russo One',sans-serif;font-size:clamp(3rem,10vw,6.5rem);color:var(--coral);line-height:1;letter-spacing:3px;text-transform:uppercase;text-shadow:2px 6px 24px rgba(0,0,0,.6);animation:down 1s ease both}
+        .logo-subtitle{font-family:'Montserrat',sans-serif;font-size:clamp(.75rem,2.4vw,1.2rem);color:#bdbdbd;letter-spacing:.9em;margin:12px -.9em 0 0;font-weight:600;text-transform:uppercase;animation:down 1s .15s ease both}
+        .hero-subtext{margin:42px auto 0;max-width:620px;font-size:clamp(1rem,2.4vw,1.3rem);font-weight:300;color:#e6eeee;animation:up 1s .5s ease both}
+        .hero-actions{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;animation:up 1s .7s ease both}
+        .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 30px;border-radius:40px;text-decoration:none;font-weight:600;transition:transform .25s,box-shadow .25s,background .25s}
+        .btn:hover{transform:translateY(-3px)}
+        .btn-primary{background:var(--coral);color:#fff;box-shadow:0 10px 28px -8px rgba(242,92,90,.7)}
+        .btn-primary:hover{background:var(--coral-d)}
+        .btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+        .btn-ghost:hover{background:rgba(255,255,255,.12)}
+        .scroll-down{position:absolute;bottom:80px;left:50%;translate:-50% 0;font-size:1.8rem;color:#fff;text-decoration:none;animation:bounce 2s infinite;z-index:2}
+ 
+        /* ---------- ABOUT ---------- */
+        .about{padding:90px 6% 100px;background:var(--sand)}
+        .about-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:60px;align-items:center}
+        .eyebrow{display:inline-block;color:var(--coral);font-weight:600;letter-spacing:.25em;font-size:.78rem;text-transform:uppercase;margin-bottom:14px}
+        .about h2{font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.3rem);line-height:1.12;color:var(--ink)}
+        .about h2::after{content:"";display:block;width:70px;height:4px;background:var(--coral);border-radius:4px;margin-top:22px}
+        .about-text p{font-size:1.07rem;color:#4a5a5d;margin-bottom:18px}
+        .highlight{color:var(--gold);font-weight:600}
+        .since{margin-top:26px;display:inline-flex;align-items:center;gap:14px;background:var(--ink);color:#fff;padding:14px 26px;border-radius:16px}
+        .since b{font-family:'Fraunces',serif;font-size:2rem;color:var(--coral);line-height:1}
+        .since span{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:#cfdcdc}
+ 
+        /* ---------- ITINERARIES ---------- */
+        .itineraries{position:relative;padding:100px 5% 110px;color:#fff;
+            background:linear-gradient(rgba(15,42,46,.82),rgba(15,42,46,.92)),url('https://images.unsplash.com/photo-1593693397690-362cb9666c74?q=75&w=1600&auto=format&fit=crop') center/cover no-repeat;background-attachment:fixed}
+        .section-title{text-align:center;font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.2rem);margin-bottom:56px;line-height:1.15}
+        .section-title::after{content:"";display:block;width:70px;height:4px;background:var(--coral);border-radius:4px;margin:20px auto 0}
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:30px;max-width:1200px;margin:0 auto}
+        .card{position:relative;background:rgba(255,255,255,.9);color:var(--text);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:var(--radius);padding:38px 30px 30px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.6);transition:transform .35s,box-shadow .35s;overflow:hidden}
+        .card:hover{transform:translateY(-10px);box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
+        .card::before{content:"";position:absolute;inset:0 0 auto 0;height:6px;background:linear-gradient(90deg,var(--coral),var(--gold))}
+        .card-num{position:absolute;top:14px;right:22px;font-family:'Fraunces',serif;font-size:3.6rem;font-weight:700;color:rgba(242,92,90,.14);line-height:1}
+        .card h3{font-family:'Fraunces',serif;color:var(--ink);font-size:1.6rem;margin-bottom:20px;padding-bottom:14px;border-bottom:2px solid var(--coral);max-width:85%}
+        .card ul{list-style:none}
+        .card li{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px solid rgba(15,42,46,.09);font-weight:500;color:#26383b}
+        .card li:last-child{border-bottom:0}
+        .card li::before{content:"";flex:none;width:9px;height:9px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 4px rgba(242,92,90,.18)}
+        .card li span{color:var(--coral);font-weight:700;margin:0 2px}
+ 
+        /* ---------- CTA ---------- */
+        .cta{position:relative;overflow:hidden;background:var(--ink);color:#fff;text-align:center;padding:100px 6%}
+        .cta::before,.cta::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.35}
+        .cta::before{width:320px;height:320px;background:var(--coral);top:-120px;left:-80px}
+        .cta::after{width:300px;height:300px;background:var(--gold);bottom:-130px;right:-60px;opacity:.25}
+        .cta>*{position:relative;z-index:1}
+        .cta h2{font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3rem);margin-bottom:18px}
+        .cta p.lead{max-width:640px;margin:0 auto 14px;font-size:1.1rem;color:#c3d0d0}
+        .custom-quote{font-size:1.3rem;color:var(--gold);font-weight:600;margin:24px 0 34px;letter-spacing:1px}
+        .btn-whatsapp{background:#25D366;color:#fff;padding:18px 40px;font-size:1.2rem;box-shadow:0 12px 30px -8px rgba(37,211,102,.6)}
+        .btn-whatsapp:hover{background:#1ebe57;transform:scale(1.05)}
+        .btn-whatsapp .ico{font-size:1.5rem}
+ 
+        /* ---------- FOOTER ---------- */
+        footer{background:#0a1d20;color:#7f9396;text-align:center;padding:42px 20px 30px;font-size:.9rem}
+        .footer-row{margin-bottom:16px;display:flex;justify-content:center;flex-wrap:wrap;gap:6px 14px;align-items:center}
+        .footer-link{color:#cdd8d8;text-decoration:none;font-size:1.05rem;font-weight:600;transition:color .25s}
+        .footer-link:hover{color:var(--coral)}
+        .divider{color:#4d6366}
+ 
+        /* ---------- FLOATING WHATSAPP ---------- */
+        .fab{position:fixed;right:20px;bottom:20px;z-index:90;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;font-size:1.7rem;text-decoration:none;box-shadow:0 10px 26px rgba(0,0,0,.35);animation:pulse 2.4s infinite}
+ 
+        /* ---------- ANIMATION ---------- */
+        .reveal{opacity:0;transform:translateY(34px);transition:opacity .8s ease,transform .8s ease}
+        .reveal.in{opacity:1;transform:none}
+        .grid .reveal:nth-child(2){transition-delay:.12s}
+        .grid .reveal:nth-child(3){transition-delay:.24s}
+        @keyframes down{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:none}}
+        @keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+        @keyframes bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-14px)}60%{transform:translateY(-7px)}}
+        @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55),0 10px 26px rgba(0,0,0,.35)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0),0 10px 26px rgba(0,0,0,.35)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0),0 10px 26px rgba(0,0,0,.35)}}
+        @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
+ 
+        /* ---------- RESPONSIVE ---------- */
+        @media (max-width:860px){
+            .about-grid{grid-template-columns:1fr;gap:30px}
+            .burger{display:block}
+            .nav-links{position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:rgba(15,42,46,.97);max-height:0;overflow:hidden;transition:max-height .35s}
+            .nav-links.open{max-height:380px}
+            .nav-links li{width:100%;text-align:center}
+            .nav-links a{display:block;padding:16px}
+            .nav-cta{margin:8px 20px 18px;border-radius:30px}
+            /* fixed backgrounds are janky on mobile */
+            .hero,.itineraries{background-attachment:scroll}
+            .logo-subtitle{letter-spacing:.5em;margin-right:-.5em}
+            .divider{display:none}
+            .footer-row{flex-direction:column}
         }
     </style>
 </head>
 <body>
-
-    <header class="parallax-hero">
-        <div class="hero-content">
-            <div class="logo-memories">MEMORIES</div>
-            <div class="logo-subtitle">TOUR PLANNERS</div>
-            
+    <a class="skip" href="#about">Skip to content</a>
+ 
+    <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#top" class="nav-brand" aria-label="Memories Tour Planners home">Memories<small>TOUR PLANNERS</small></a>
+        <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <ul class="nav-links" id="links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#itineraries">Itineraries</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="nav-cta" href="https://wa.me/919207349246?text=Hi%20Memories%20Tour%20Planners!%20I%20am%20interested%20in%20booking%20a%20premium%20tour%20package." target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+    </nav>
+ 
+    <header class="hero" id="top">
+        <div>
+            <h1>
+                <span class="logo-memories">MEMORIES</span><br>
+                <span class="logo-subtitle">TOUR PLANNERS</span>
+            </h1>
             <p class="hero-subtext">Curating Exceptional Journeys Across South India Since 2019.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#itineraries">Exclusive Travel Itineraries</a>
+                <a class="btn btn-ghost" href="#contact">Begin Your Next Adventure</a>
+            </div>
         </div>
-        <a href="#about" class="scroll-down">⬇</a>
+        <a href="#about" class="scroll-down" aria-label="Scroll to about section">⬇</a>
     </header>
-
-    <section id="about" class="about-section">
-        <div class="about-container">
-            <h2>A Legacy of Travel Excellence</h2>
-            <p>Headquartered in Kerala with a strong presence across Trivandrum, Kollam, and Alappuzha,Kottayam,Pathanamthitta.Our journey began by God's Grace in 2019 with a commitment to redefine experiential travel.</p>
-            <p>Recognized for our premium service standards, we guarantee <span class="highlight">flawless execution and unparalleled hospitality</span>, ensuring every getaway becomes a cherished memory.</p>
-        </div>
-    </section>
-
-    <section class="parallax-itinerary">
-        <h2 class="section-title">Exclusive Travel Itineraries</h2>
-        
-        <div class="itinerary-grid">
-            
-            <div class="glass-card">
-                <h3>Day Excursions</h3>
-                <ul>
-                    <li>Wagamon</li>
-                    <li>Wonderla</li>
-                    <li>Ramakkalmedu</li>
-                    <li>Idukki</li>
-                    <li>Kanyakumari</li>
-                    <li>Thenmala</li>
-                    <li>Alappuzha</li>
-                    <li>Athirapally</li>
-                    <li>Silver Storm</li>
-                </ul>
+ 
+    <main>
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="about-grid">
+                <div class="reveal">
+                    <span class="eyebrow">Memories Tour Planners</span>
+                    <h2 id="about-title">A Legacy of Travel Excellence</h2>
+                    <div class="since"><b>2019</b><span>Since · By God's Grace</span></div>
+                </div>
+                <div class="about-text reveal">
+                    <p>Headquartered in Kollam, Thiruvananthapuram, Kerala, with a presence all over Kerala, including Alappuzha, Kottayam and Pathanamthitta. Our journey began by God's Grace in 2019 with a commitment to redefine experiential travel.</p>
+                    <p>Recognized for our premium service standards, we guarantee <span class="highlight">flawless execution and unparalleled hospitality</span>, ensuring every getaway becomes a cherished memory.</p>
+                </div>
             </div>
-
-            <div class="glass-card">
-                <h3>Weekend Escapes (2 Days)</h3>
-                <ul>
-                    <li>Wayanad <span>&</span> Ooty</li>
-                    <li>Mysuru <span>&</span> Ooty</li>
-                    <li>Coorg <span>&</span> Wayanad</li>
-                    <li>Mysuru <span>&</span> Coorg</li>
-                    <li>Kodaikanal <span>&</span> Marayur</li>
-                    <li>Marayur <span>&</span> Munnar</li>
-                    <li>Munnar <span>&</span> Wagamon</li>
-                    <li>Mysuru <span>&</span> Wayanad</li>
-                    <li>Belur <span>&</span> Coorg</li>
-                </ul>
+        </section>
+ 
+        <section id="itineraries" class="itineraries" aria-labelledby="it-title">
+            <h2 class="section-title reveal" id="it-title">Exclusive Travel Itineraries</h2>
+ 
+            <div class="grid">
+                <article class="card reveal">
+                    <span class="card-num" aria-hidden="true">01</span>
+                    <h3>Day Excursions</h3>
+                    <ul>
+                        <li>Wagamon</li>
+                        <li>Wonderla</li>
+                        <li>Ramakkalmedu</li>
+                        <li>Idukki</li>
+                        <li>Kanyakumari</li>
+                        <li>Thenmala</li>
+                        <li>Alappuzha</li>
+                        <li>Athirapally</li>
+                        <li>Silver Storm</li>
+                    </ul>
+                </article>
+ 
+                <article class="card reveal">
+                    <span class="card-num" aria-hidden="true">02</span>
+                    <h3>Weekend Escapes (2 Days)</h3>
+                    <ul>
+                        <li>Wayanad <span>&amp;</span> Ooty</li>
+                        <li>Mysuru <span>&amp;</span> Ooty</li>
+                        <li>Coorg <span>&amp;</span> Wayanad</li>
+                        <li>Mysuru <span>&amp;</span> Coorg</li>
+                        <li>Kodaikanal <span>&amp;</span> Marayur</li>
+                        <li>Marayur <span>&amp;</span> Munnar</li>
+                        <li>Munnar <span>&amp;</span> Wagamon</li>
+                        <li>Mysuru <span>&amp;</span> Wayanad</li>
+                        <li>Belur <span>&amp;</span> Coorg</li>
+                    </ul>
+                </article>
+ 
+                <article class="card reveal">
+                    <span class="card-num" aria-hidden="true">03</span>
+                    <h3>Immersive Retreats (3 Days)</h3>
+                    <ul>
+                        <li>Coorg, Mysuru <span>&amp;</span> Ooty</li>
+                        <li>Mysuru, Coorg <span>&amp;</span> Wayanad</li>
+                        <li>Mysuru, Chikmagalur <span>&amp;</span> Coorg</li>
+                        <li>Mysuru, Belur <span>&amp;</span> Coorg</li>
+                        <li>Kodaikanal, Marayur <span>&amp;</span> Munnar</li>
+                        <li>Marayur, Munnar <span>&amp;</span> Wagamon</li>
+                        <li>Mysuru, Wayanad <span>&amp;</span> Wonderla</li>
+                        <li>Chikmagalur, Belur <span>&amp;</span> Wayanad</li>
+                    </ul>
+                </article>
             </div>
-
-            <div class="glass-card">
-                <h3>Immersive Retreats (3 Days)</h3>
-                <ul>
-                    <li>Coorg, Mysuru <span>&</span> Ooty</li>
-                    <li>Mysuru, Coorg <span>&</span> Wayanad</li>
-                    <li>Mysuru, Chikmagalur <span>&</span> Coorg</li>
-                    <li>Mysuru, Belur <span>&</span> Coorg</li>
-                    <li>Kodaikanal, Marayur <span>&</span> Munnar</li>
-                    <li>Marayur, Munnar <span>&</span> Wagamon</li>
-                    <li>Mysuru, Wayanad <span>&</span> Wonderla</li>
-                    <li>Chikmagalur, Belur <span>&</span> Wayanad</li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="cta-section">
-        <h2>Begin Your Next Adventure</h2>
-        <p style="margin-bottom: 10px; font-size: 1.1rem; color: #bdc3c7;">Connect with our travel consultants to check availability, receive a personalized quote, or tailor your perfect itinerary.</p>
-        
-        <p class="custom-quote">✨ Bespoke & Custom Travel Packages Available ✨</p>
-        
-        <a href="https://wa.me/919207349246?text=Hi%20Memories%20Tour%20Planners!%20I%20am%20interested%20in%20booking%20a%20premium%20tour%20package." class="btn-whatsapp" target="_blank">
-            <span>💬</span> Consult Our Experts via WhatsApp
-        </a>
-    </section>
-
+        </section>
+ 
+        <section id="contact" class="cta" aria-labelledby="cta-title">
+            <h2 id="cta-title" class="reveal">Begin Your Next Adventure</h2>
+            <p class="lead reveal">Connect with our travel consultants to check availability, receive a personalized quote, or tailor your perfect itinerary.</p>
+            <p class="custom-quote reveal">✨ Bespoke &amp; Custom Travel Packages Available ✨</p>
+            <a class="btn btn-whatsapp reveal" href="https://wa.me/919207349246?text=Hi%20Memories%20Tour%20Planners!%20I%20am%20interested%20in%20booking%20a%20premium%20tour%20package." target="_blank" rel="noopener">
+                <span class="ico" aria-hidden="true">💬</span> Consult Our Experts via WhatsApp
+            </a>
+        </section>
+    </main>
+ 
     <footer>
-        <div class="footer-contact-row">
+        <div class="footer-row">
             <a href="tel:+918589065178" class="footer-link">📞 +91 85890 65178</a>
             <span class="divider">|</span>
             <a href="tel:+918943558285" class="footer-link">📞 +91 89435 58285</a>
         </div>
-        
-        <div class="footer-contact-row">
-            <a href="https://www.instagram.com/memories_tour_planners?igsh=anMxZ3ZmNm5jbXg2" target="_blank" class="footer-link instagram-link">
-                📸 Follow Our Premium Journeys on Instagram: Memories Tour Planners
-            </a>
+        <div class="footer-row">
+            <a href="https://www.instagram.com/memories_tour_planners?igsh=anMxZ3ZmNm5jbXg2" target="_blank" rel="noopener me" class="footer-link">📸 Follow Our Premium Journeys on Instagram: Memories Tour Planners</a>
         </div>
-
-        <p style="margin-top: 15px;">&copy; 2026 Memories Tour Planners | Redefining Travel.</p>
+        <p>&copy; 2026 Memories Tour Planners | Redefining Travel.</p>
     </footer>
-
+ 
+    <a class="fab" aria-label="Chat on WhatsApp" href="https://wa.me/919207349246?text=Hi%20Memories%20Tour%20Planners!%20I%20am%20interested%20in%20booking%20a%20premium%20tour%20package." target="_blank" rel="noopener">💬</a>
+ 
+    <script>
+        (function(){
+            var nav=document.getElementById('nav'),burger=document.getElementById('burger'),links=document.getElementById('links');
+            function onScroll(){nav.classList.toggle('scrolled',window.scrollY>40)}
+            window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+            burger.addEventListener('click',function(){
+                var open=links.classList.toggle('open');
+                burger.setAttribute('aria-expanded',open);
+            });
+            links.addEventListener('click',function(e){
+                if(e.target.tagName==='A'){links.classList.remove('open');burger.setAttribute('aria-expanded','false')}
+            });
+            var items=document.querySelectorAll('.reveal');
+            if('IntersectionObserver' in window){
+                var io=new IntersectionObserver(function(es){
+                    es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}});
+                },{threshold:.15});
+                items.forEach(function(el){io.observe(el)});
+            }else{items.forEach(function(el){el.classList.add('in')})}
+        })();
+    </script>
 </body>
 </html>
